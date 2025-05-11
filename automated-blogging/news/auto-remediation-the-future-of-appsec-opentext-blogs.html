@@ -18,15 +18,142 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style type="text/css">
-.c597d93f6ca404d3759a06ae64f4ea88b i{
+.hamburger span:nth-child(2){
+top: 8px;
+transition: all 0.15s;
+}
+.navbar-toggler{
+-webkit-align-self: flex-start;
+-ms-flex-item-align: start;
+align-self: flex-start;
+padding: 0px 0px;
 font-size: 19.6px;
-padding: 10px;
+line-height: 1;
+background: transparent;
+border: 1px solid transparent!important;
+border-radius: 0.25rem;
 }
-.xd8193f9830d458aa23088e49c3e935a4{
-font-weight: 700 !important;
+.z20c1efa6262b361fbd2311bf6ff8859c .b0235913ef41d0926e8aa5ca9de9ac633{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 1.5rem;
+margin-top: 4rem;
+border-top: 2px solid #131313;
 }
-.yb0b547081d735e3a979aa5c4851991f5 a{
+.hamburger span:nth-child(4){
+top: 16px;
+transition: all 0.2s;
+}
+.x9c01186b2201a85c7fe3e8158155e77e{
+color: #fff;
+background-color: #0c91ad;
+border-color: #0e93af;
+display: inline-block;
+font-weight: 800;
+line-height: 1.5;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+padding: 1rem 1.75rem;
+font-size: 0.875rem;
+border-radius: 0;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.hamburger span:nth-child(1){
+top: 0;
+transition: all 0.2s;
+}
+*{
+font-family: 'DM Sans', sans-serif;
+}
+.z20c1efa6262b361fbd2311bf6ff8859c a{
+color:#131313;
+text-decoration: underline;
+}
+.justify-content-evenly{
+justify-content: space-evenly;
+}
+.y75d305df0a0f28cec2787a2c05e4b16f a{
 color: black;
+}
+.t5e98381db91f2abf327f23021ffd4671 > .y75d305df0a0f28cec2787a2c05e4b16f > a{
+text-decoration: none;
+}
+.d3029f9850fa8d09b35b76d341ac71028,.d3029f9850fa8d09b35b76d341ac71028:active{
+background-color:#ffffff!important;
+border-color:#000000!important;
+color:#000000!important;
+padding: 10.2px 19.5px!important;
+border-radius: 0;
+font-weight: 700!important;
+letter-spacing: 0px;
+transition-property: all;
+transition-duration: .2s;
+min-width: 200.1px !important;
+}
+.nav-link{
+color: #000000!important;
+}
+.hamburger span:nth-child(3){
+top: 8px;
+transition: all 0.15s;
+}
+.dropdown .dropdown-menu .dropdown-item{
+width: auto;
+padding: 0.2em 1.3em 0.2em 1.3em !important;
+}
+.hamburger span{
+position: absolute;
+right: 0;
+width: 29.7px;
+height: 2px;
+border-right: 5px;
+background-color: #000000;
+}
+html{
+scroll-behavior: smooth;
+}
+.d3029f9850fa8d09b35b76d341ac71028:hover, .d3029f9850fa8d09b35b76d341ac71028:focus, .d3029f9850fa8d09b35b76d341ac71028.focus, .d3029f9850fa8d09b35b76d341ac71028.active{
+color: #ffffff !important;
+background-color: #000000 !important;
+border-color: #000000 !important;
+}
+.dropdown .dropdown-menu{
+background: #ffffff;
+position: absolute;
+display: none;
+min-width: 50px;
+padding-top: 10px;
+box-shadow: 0 0 14.9px 0 rgb(0 0 0 / 10%);
+padding-bottom: 9.7px;
+text-align: left;
+}
+.t5e98381db91f2abf327f23021ffd4671 > a{
+color: #212529;
+}
+p, .c7dfa7badebaddfb77971dedd62f34d95{
+font-size:20px;
+line-height: 1.68;
+font-weight: 400;
+}
+.z20c1efa6262b361fbd2311bf6ff8859c li{
+list-style: none;
+padding-left: 0;
+margin-top: 1.5rem;
+text-align: left;
+color: #000000;
+}
+.t5e98381db91f2abf327f23021ffd4671 > a:focus, .t5e98381db91f2abf327f23021ffd4671 > a:hover{
+text-decoration: none;
+color: #1297b3;
+}
+.navbar-nav li:hover>.dropdown-menu{
+display: block;
+}
+.y7403d371a0b5d81a277ae68a9384558f i{
+font-size: 20.2px;
+padding: 10px;
 }
 .dropdown-item{
 display: block;
@@ -39,53 +166,22 @@ white-space: nowrap;
 background-color: transparent;
 border: 0;
 }
-.ze19559e708196e6f91550d7a8c16a573 > .yb0b547081d735e3a979aa5c4851991f5{
-font-size: 1.125rem;
-font-style: italic;
-margin-top: 0;
-font-style: normal;
-color: #788189;
+.ef81951f709479b7913bac668e56af581{
+font-weight: 700 !important;
 }
-.aff27602082797f398807351c199d9789,.aff27602082797f398807351c199d9789:active{
-background-color:#ffffff!important;
-border-color:#000000!important;
-color:#000000!important;
-padding: 10.5px 19.9px!important;
-border-radius: 0;
-font-weight: 700!important;
-letter-spacing: 0px;
-transition-property: all;
-transition-duration: .2s;
-min-width: 200.4px !important;
-}
-.u0019cffd586d58c9c292bbdaeac2de94 *{
-color:#050505;
-font-size:20px!important;
-}
-.u0019cffd586d58c9c292bbdaeac2de94 ul{
+.z20c1efa6262b361fbd2311bf6ff8859c ul{
 padding-left: 0px;
 }
-.ze19559e708196e6f91550d7a8c16a573 > a{
-color: #212529;
+.fa-star,.fa-star-half-alt{
+font-size: 14.8px;
 }
-p, .z7adf8ff5290e6e3d476b157616d90e40{
-font-size:20px;
-line-height: 1.68;
-font-weight: 400;
-}
-.u0019cffd586d58c9c292bbdaeac2de94 a{
-color:#050505;
-text-decoration: underline;
-}
-.nav-link{
-color: #000000!important;
-}
-.nav-item .nav-link{
-display: -webkit-flex;
-align-items: center;
-padding: 12.2px 0!important;
-margin: 0px 19.8px!important;
--webkit-align-items: center;
+.z20c1efa6262b361fbd2311bf6ff8859c{
+padding-top: 4rem;
+padding-bottom: 6rem;
+background-color: #cdeaf0;
+bottom: 0;
+z-index: 0;
+width: 100%;
 }
 a:hover{
 color:#000000!important;
@@ -93,90 +189,62 @@ background:#ffffff!important;
 opacity: .75;
 text-decoration: none;
 }
-.ze19559e708196e6f91550d7a8c16a573 > .yb0b547081d735e3a979aa5c4851991f5 > a{
-text-decoration: none;
+.t5e98381db91f2abf327f23021ffd4671 > a > .yee5b51e3bc03ab8ad11613ceb621c32e{
+font-size: 1.875rem;
+margin-top: 1.875rem;
+margin-bottom: 0.625rem;
+font-weight: 800;
 }
-.hamburger span:nth-child(1){
-top: 0;
-transition: all 0.2s;
+a:hover, a:focus, a.active{
+color:#000000!important;
 }
 .nav-link:hover, .dropdown-item:hover{
  
 opacity: .75;
 }
-.fa-star,.fa-star-half-alt{
-font-size: 14.5px;
+.dropdown-menu{
+max-width:800px;
+overflow-x: auto;
 }
-.hamburger span:nth-child(3){
-top: 8px;
-transition: all 0.15s;
+.z20c1efa6262b361fbd2311bf6ff8859c *{
+color:#131313;
+font-size:20px!important;
 }
-.hamburger span:nth-child(4){
-top: 16px;
-transition: all 0.2s;
+.t5e98381db91f2abf327f23021ffd4671 > .y75d305df0a0f28cec2787a2c05e4b16f{
+font-size: 1.125rem;
+font-style: italic;
+margin-top: 0;
+font-style: normal;
+color: #6c757d;
 }
-.a98bea00105d9e3b6215ec66bfab4a193{
-color: #fff;
-background-color: #1095b1;
-border-color: #0a8fab;
-display: inline-block;
-font-weight: 800;
-line-height: 1.5;
-text-align: center;
-vertical-align: middle;
-cursor: pointer;
-padding: 1rem 1.75rem;
-font-size: 0.875rem;
-border-radius: 0;
-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+.t5e98381db91f2abf327f23021ffd4671 > a > .y16104856b1dc760e86df657fb97d32a0{
+font-weight: 300;
+margin-bottom: 0.625rem;
 }
 .post-content *{
 
 font-size: 1.25rem;
 }
-*{
-font-family: 'DM Sans', sans-serif;
-}
-.ze19559e708196e6f91550d7a8c16a573 > a > .b2f0a7d8552726bf90df57798f339e9ad{
-font-weight: 300;
-margin-bottom: 0.625rem;
-}
 .navbar{
 background: #ffffff;
 transition: none;
-min-height: 77.4px;
-padding-top: 10.1px;
-padding-bottom: 10.3px;
+min-height: 76.7px;
+padding-top: 9.7px;
+padding-bottom: 10.5px;
 position: relative;
 z-index: 1000;
-box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+box-shadow: 0 0 15.2px 0 rgb(0 0 0 / 10%);
 }
-.hamburger span:nth-child(2){
-top: 8px;
-transition: all 0.15s;
-}
-.dropdown-menu{
-max-width:800px;
-overflow-x: auto;
-}
-.u0019cffd586d58c9c292bbdaeac2de94 li{
-list-style: none;
-padding-left: 0;
-margin-top: 1.5rem;
-text-align: left;
-color: #000000;
-}
-.aff27602082797f398807351c199d9789:hover, .aff27602082797f398807351c199d9789:focus, .aff27602082797f398807351c199d9789.focus, .aff27602082797f398807351c199d9789.active{
-color: #ffffff !important;
-background-color: #000000 !important;
-border-color: #000000 !important;
-}
-.justify-content-evenly{
-justify-content: space-evenly;
+.nav-item .nav-link{
+display: -webkit-flex;
+align-items: center;
+padding: 11.9px 0!important;
+margin: 0px 19.7px!important;
+-webkit-align-items: center;
 }
 button.navbar-toggler{
 width: 30.9px;
-height: 17.6px;
+height: 18.2px;
 cursor: pointer;
 transition: all 0.2s;
 top: 2rem;
@@ -184,82 +252,14 @@ display: block;
 right: 1.5rem;
 position: absolute;
 }
-.dropdown .dropdown-menu{
-background: #ffffff;
-position: absolute;
-display: none;
-min-width: 49.8px;
-padding-top: 10.4px;
-box-shadow: 0 0 14.8px 0 rgb(0 0 0 / 10%);
-padding-bottom: 9.7px;
-text-align: left;
-}
-.u0019cffd586d58c9c292bbdaeac2de94 .fcc4ec324df74a92a690db543250beaf4{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-top: 1.5rem;
-margin-top: 4rem;
-border-top: 2px solid #050505;
-}
-a:hover, a:focus, a.active{
-color:#000000!important;
-}
-.ze19559e708196e6f91550d7a8c16a573 > a:focus, .ze19559e708196e6f91550d7a8c16a573 > a:hover{
-text-decoration: none;
-color: #0a8fab;
-}
-html{
-scroll-behavior: smooth;
-}
-.u0019cffd586d58c9c292bbdaeac2de94{
-padding-top: 4rem;
-padding-bottom: 6rem;
-background-color: #c4e1e7;
-bottom: 0;
-z-index: 0;
-width: 100%;
-}
-.navbar-toggler{
--webkit-align-self: flex-start;
--ms-flex-item-align: start;
-align-self: flex-start;
-padding: 0px 0px;
-font-size: 19.9px;
-line-height: 1;
-background: transparent;
-border: 1px solid transparent!important;
-border-radius: 0.25rem;
-}
-.hamburger span{
-position: absolute;
-right: 0;
-width: 30.1px;
-height: 2px;
-border-right: 5px;
-background-color: #000000;
-}
 a{
 color: black;
 text-decoration: none;
 }
-.navbar-nav li:hover>.dropdown-menu{
-display: block;
-}
-.dropdown .dropdown-menu .dropdown-item{
-width: auto;
-padding: 0.2em 1.3em 0.2em 1.3em !important;
-}
-.ze19559e708196e6f91550d7a8c16a573 > a > .b09a1ef2a3a51e4b87b8b6d875d693a3e{
-font-size: 1.875rem;
-margin-top: 1.875rem;
-margin-bottom: 0.625rem;
-font-weight: 800;
-}
 </style>
 </head>
 <body>
-<nav class="navbar px-md-5 navbar-expand-lg">
+<nav class="px-md-5 navbar navbar-expand-lg">
 <a class="navbar-brand" href="../automated-blogging.html"  > 
 <img alt="" src="../img/cblitzlogowhiteletters.jpg" width="100px" >
 </a>
@@ -269,28 +269,28 @@ font-weight: 800;
 <div class="navbar-collapse collapse" id="navbarSupportedContent">
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
-<a class="z7adf8ff5290e6e3d476b157616d90e40 nav-link" href="../news.html" rel="nofollow"><b>News</b></a>
+<a class="c7dfa7badebaddfb77971dedd62f34d95 nav-link" href="../news.html" rel="nofollow"><b>News</b></a>
 </li>
 <li class="nav-item">
-<a class="nav-link z7adf8ff5290e6e3d476b157616d90e40" href="../automated-blogging.html" ><b>Automated Blogging</b></a>
+<a class="nav-link c7dfa7badebaddfb77971dedd62f34d95" href="../automated-blogging.html" ><b>Automated Blogging</b></a>
 </li>
 <li class="nav-item">
-<a class="z7adf8ff5290e6e3d476b157616d90e40 nav-link" href="../automated-blogging-technology.html" ><b>Automated Blogging Technology</b></a>
+<a class="c7dfa7badebaddfb77971dedd62f34d95 nav-link" href="../automated-blogging-technology.html" ><b>Automated Blogging Technology</b></a>
 </li>
 <li class="nav-item">
-<a class="nav-link z7adf8ff5290e6e3d476b157616d90e40" href="../automated-blogging-system.html" ><b>Automated Blogging System</b></a>
+<a class="nav-link c7dfa7badebaddfb77971dedd62f34d95" href="../automated-blogging-system.html" ><b>Automated Blogging System</b></a>
 </li>
 <li class="nav-item">
-<a class="nav-link z7adf8ff5290e6e3d476b157616d90e40" href="../automated-blogging-1.html" ><b>Automated Blogging</b></a>
+<a class="nav-link c7dfa7badebaddfb77971dedd62f34d95" href="../automated-blogging-1.html" ><b>Automated Blogging</b></a>
 </li>
-<li class="dropdown nav-item">
-<a class="dropdown-toggle z7adf8ff5290e6e3d476b157616d90e40 nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><b>More</b></a>
-<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-<a class="dropdown-item z7adf8ff5290e6e3d476b157616d90e40" href="../automated-blogging-for-wordpress.html" >Automated Blogging For Wordpress</a>
-<a class="dropdown-item z7adf8ff5290e6e3d476b157616d90e40" href="../automated-blogging-software.html" >Automated Blogging Software</a>
-<a class="z7adf8ff5290e6e3d476b157616d90e40 dropdown-item" href="../autoblog.html" >Autoblog</a>
+<li class="nav-item dropdown">
+<a class="nav-link c7dfa7badebaddfb77971dedd62f34d95 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><b>More</b></a>
+<div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="c7dfa7badebaddfb77971dedd62f34d95 dropdown-item" href="../automated-blogging-for-wordpress.html" >Automated Blogging For Wordpress</a>
+<a class="c7dfa7badebaddfb77971dedd62f34d95 dropdown-item" href="../automated-blogging-software.html" >Automated Blogging Software</a>
+<a class="c7dfa7badebaddfb77971dedd62f34d95 dropdown-item" href="../autoblog.html" >Autoblog</a>
 </div>
-</li><li class="nav-item"><a class="nav-link z7adf8ff5290e6e3d476b157616d90e40" href="../about-us.html"><b>About Us</b></a></li>
+</li><li class="nav-item"><a class="nav-link c7dfa7badebaddfb77971dedd62f34d95" href="../about-us.html"><b>About Us</b></a></li>
 </ul>
 </div>
 </nav>
@@ -306,22 +306,22 @@ font-weight: 800;
 <div class="container py-5">
 <div class="row gx-4 gx-lg-5 justify-content-center">
 <div class="col-md-12">
-<div class="ze19559e708196e6f91550d7a8c16a573">
+<div class="t5e98381db91f2abf327f23021ffd4671">
 <h1 class="pt-2 text-capitalize"><b>Auto-remediation: the future of AppSec? - OpenText Blogs</b></h1>
-<p class="yb0b547081d735e3a979aa5c4851991f5">
+<p class="y75d305df0a0f28cec2787a2c05e4b16f">
 Posted by   on 2024-09-26</p>
 </div>
 <div class="py-4">
 <p>&quot;&quot;</p>
 </div>
 <div class="d-flex justify-content-evenly mb-4">
-<a class="btn a98bea00105d9e3b6215ec66bfab4a193 text-uppercase" href="how-cloudflare-auto-mitigated-a-world-record-3-8-tbps-ddos-attack-the-cloudflare-blog.html">Previous</a>
-<a class="btn a98bea00105d9e3b6215ec66bfab4a193 text-uppercase" href="simplifying-license-management-for-admins-with-user-license-auto-claim-for-power-automate-microsoft.html">Next</a>
+<a class="btn x9c01186b2201a85c7fe3e8158155e77e text-uppercase" href="how-cloudflare-auto-mitigated-a-world-record-3-8-tbps-ddos-attack-the-cloudflare-blog.html">Previous</a>
+<a class="btn x9c01186b2201a85c7fe3e8158155e77e text-uppercase" href="simplifying-license-management-for-admins-with-user-license-auto-claim-for-power-automate-microsoft.html">Next</a>
 </div>
 </div>
 </div>
 </div>
-<footer class="u0019cffd586d58c9c292bbdaeac2de94">
+<footer class="z20c1efa6262b361fbd2311bf6ff8859c">
 <div class="container"><div class="row"><div class="col-lg-3">
 <ul class="mt-0">
 <div class="col-lg-12">
@@ -330,15 +330,15 @@ Posted by   on 2024-09-26</p>
 </ul>
 </div></div><div class="row">
 <div class="col-12">
-<div class="fcc4ec324df74a92a690db543250beaf4">
+<div class="b0235913ef41d0926e8aa5ca9de9ac633">
 <div><a href="../sitemap.html" rel="nofollow">Sitemap | </a>
-<a class="z7adf8ff5290e6e3d476b157616d90e40" href="../privacy-policy.html" rel="nofollow">Privacy Policy</a> 
+<a class="c7dfa7badebaddfb77971dedd62f34d95" href="../privacy-policy.html" rel="nofollow">Privacy Policy</a> 
 <a href="../about-us.html" rel="nofollow">
 <b>About Us</b></a>
 </div><div>
 <p>Follow us</p>
-<a href="https://www.youtube.com/@cblitztools8146" class="c597d93f6ca404d3759a06ae64f4ea88b youtube" rel="nofollow"><i class="fa fa-youtube"></i></a>
-<a href="https://x.com/CblitzTool" class="c597d93f6ca404d3759a06ae64f4ea88b twitter" rel="nofollow"><i class="fa fa-twitter"></i></a>
+<a href="https://www.youtube.com/@cblitztools8146" class="y7403d371a0b5d81a277ae68a9384558f youtube" rel="nofollow"><i class="fa fa-youtube"></i></a>
+<a href="https://x.com/CblitzTool" class="y7403d371a0b5d81a277ae68a9384558f twitter" rel="nofollow"><i class="fa fa-twitter"></i></a>
 </div></div>
 </div>
 </div></div>
